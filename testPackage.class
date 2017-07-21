@@ -1,0 +1,13 @@
+package bean
+
+class Person {
+    String name
+    String gender
+    Person(name,gender) {
+        this.name = name
+        this.gender = gender
+    }
+    def print() {
+        println name+" "+gender
+    }
+}
